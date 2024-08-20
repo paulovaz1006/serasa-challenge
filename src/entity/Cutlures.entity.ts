@@ -11,4 +11,10 @@ export class CulturesEntity {
 
   @ManyToMany(() => FarmsEntity, (farm) => farm.cultures_ids)
   farm_ids: FarmsEntity[];
+
+  constructor(name, farm_id) {
+    this.id = randomUUID();
+    this.name = name;
+    this.farm_id = farm_id
+  }
 }
