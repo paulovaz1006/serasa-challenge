@@ -1,6 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, Double, ManyToOne, ManyToMany } from "typeorm"
 import { ProducersEntity } from "./Producers.entity"
 import { CulturesEntity } from "./Cutlures.entity"
+import { randomUUID } from "crypto";
 
 @Entity({name: 'farms'})
 export class FarmsEntity {
@@ -28,4 +29,15 @@ export class FarmsEntity {
 
     @ManyToMany(() => CulturesEntity, (culture) => culture.farm_ids)
     cultures_ids: CulturesEntity[]; 
+
+    constructor(name, city, area_total_hectares, area_agriculture_hectares, area_vegetation_hectares, producer_id) {
+        this.id = randomUUID();
+        this.name = name; 
+        this.city = city;
+        this.area_total_hectares = area_total_hectares; 
+        this.area_vegetation_hectares = area_vegetation_hectares; 
+        this.area_agriculture_hectares = area_agriculture_hectares, 
+        this.producer_id = producer_id;
+        
+    }
 }
