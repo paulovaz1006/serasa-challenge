@@ -31,14 +31,24 @@ export class ProducersUseCase implements IUserCase {
     if (validFarm.error) return validFarm;
 
     const producersEntity = new ProducersEntity( producer_name, cpf, cnpj);
-    const farmEntity = new FarmsEntity();
-    const culturesEntity = new CulturesEntity();
 
-    // const saveProducer = await this.producerRepository.save(payload);
-    // const saveFarm = await this.producerRepository.save(payload);
-    // const saveCultures = await this.producerRepository.save(payload);
+    await this.producerRepository.save(producersEntity)
+    .then(async (result) => {
+       const farmEntity = new FarmsEntity(farm_name,
+      city,
+      state,
+      area_total_hectares,
+      area_agricultura_hectares,
+      area_vegetacao_hectares,
+      result.id);
 
-
+      return await this.farmsRepository.save(farmEntity)
+    })
+    .then((result) => {
+      const culturesEntity = new CulturesEntity(culture,
+      result.id);
+      return await this.culturesRepository.save(culturesEntity);
+    })
   }
 
   async patch(id, payload) {
