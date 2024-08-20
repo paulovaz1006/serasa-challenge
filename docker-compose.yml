@@ -1,0 +1,32 @@
+version: '1.0'
+
+networks:
+  default:
+    name: net-serasa
+    external: true
+
+services:
+  api-serasa-challenge:
+    container_name: api-serasa-challenge
+    build: ./api-serasa-challenge
+    restart: always
+    ports:
+      - 3000:3000
+    env_file:
+      - ./.env
+      
+db-postgres:
+    image: postgres:15.3-alpine
+    container_name: db-postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+   
+volumes:
+  db-postgree:
+    name: db-postgree
