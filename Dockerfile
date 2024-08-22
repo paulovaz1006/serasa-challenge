@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /
+WORKDIR /src
 
 COPY . .
 
@@ -10,4 +10,4 @@ RUN npm i
 
 CMD ["npm", "start"]
 
-EXPOSE 3003
+EXPOSE 3000
