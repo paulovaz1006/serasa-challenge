@@ -1,12 +1,12 @@
 import { Repository } from "typeorm";
-import { IUserRepository } from "../modules/producers/interfaces/Iuser.interfaces";
 import { AppDataSource } from "../db/data-source";
 import { CulturesEntity } from "../entity/Cutlures.entity";
+import { ICultureRepository } from "../interfaces/ICulture.interfaces";
 
 export class CulturesRepository implements ICultureRepository {
   private repository: Repository<CulturesEntity> = AppDataSource.getRepository(CulturesEntity);
 
-  private async findById(id) {
+  async findByFarmId(id) {
     return this.repository.find({
       where: {
         id,
@@ -18,11 +18,13 @@ export class CulturesRepository implements ICultureRepository {
     return this.repository.save(payload)
   }
 
-  async update(id, payload) {
-    const searchProducer = await this.findById(id);
+  async update(farm_id, payload) {
+    const searchProducer = this.findByFarmId(farm_id);
+
     const info = {
-      ...searchProducer,
-      ...payload
+      ...searchProducer[0],
+      ...payload,
+      farm_id
     }
     return await this.save(info)
   }

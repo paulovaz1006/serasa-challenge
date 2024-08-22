@@ -1,34 +1,32 @@
-import { Repository } from "typeorm";
-import { IUserRepository } from "../modules/producers/interfaces/Iuser.interfaces";
-import { AppDataSource } from "../db/data-source";
+import { Repository } from "typeorm";import { AppDataSource } from "../db/data-source";
 import { FarmsEntity } from "../entity/Farms.entity";
+import { IFarmRepository } from "../interfaces/IFarm.interfaces";
 
-export class FarmsRepository implements IUserRepository {
+export class FarmsRepository implements IFarmRepository {
   private repository: Repository<FarmsEntity> = AppDataSource.getRepository(FarmsEntity);
 
-  private async findById(id) {
-    return this.repository.find({
+  async findByProducerId(id) {
+    return await this.repository.find({
       where: {
-        id,
-      }
-    })
+        producer_id: {
+          id: id,
+        },
+      },
+    });
   }
 
   async save(payload) {
     return this.repository.save(payload)
   }
 
-  async update(id, payload) {
-    const searchProducer = await this.findById(id);
+  async update(producer_id, payload) {
+    const searchProducer = await this.findByProducerId(producer_id);
+ 
     const info = {
-      ...searchProducer,
-      ...payload
+      ...searchProducer[0],
+      ...payload,
+      producer_id
     }
     return await this.save(info)
-  }
-
-
-  async delete(id, payload) {
-    return 'ok'
   }
 }
