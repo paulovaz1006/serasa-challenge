@@ -27,15 +27,17 @@ O teste tem como objetivo acurar as habilidades do candidato em resolver alguns 
   serviço de banco de dados, será preciso instalar localmente  
   https://www.postgresql.org/  
 
-  Comandos para test:
+ ## Comandos para test:
   - npm test
 
   Comando para build:
   - npm run build
 
 ## Comandos
-para criar migrations: typeorm migration:create src/db/migrations/nomeDaMigration
-para rodar migrations: npm run migration:run
+- para criar migrations:
+  - typeorm migration:create src/db/migrations/nomeDaMigration
+- para rodar migrations:
+  - npm run migration:run
 
 ## Docs da api
   - http://localhost:3000/api-docs
