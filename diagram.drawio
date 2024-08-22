@@ -1,17 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="YSyBHumIKhHFjEcKD_M7" name="Page-1">
-        <mxGraphModel dx="1751" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2144" dy="2351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot;&gt;cadastro de produtor rural com os seguintes dados:&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;CPF ou CNPJ&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Nome do produtor&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Nome da Fazenda&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Cidade&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Estado&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Área total em hectares da fazenda&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Área agricultável em hectares&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Área de vegetação em hectares&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Culturas plantadas (Soja, Milho, Algodão, Café, Cana de Açucar)&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#e6edf3&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;box-sizing: border-box; position: relative; color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot; class=&quot;markdown-heading&quot;&gt;&lt;h1 style=&quot;box-sizing: border-box; margin-top: var(--base-size-24); margin-right: 0px; margin-bottom: var(--base-size-16); margin-left: 0px; font-weight: var(--base-text-weight-semibold, 600); line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;Requisitos de negócio&lt;/h1&gt;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); float: left; padding-right: var(--base-size-4); margin: auto; line-height: 1; position: absolute; top: 25.2969px; left: -28px; display: flex; width: 28px; height: 28px; border-radius: var(--borderRadius-medium); opacity: 0; justify-content: center; align-items: center; transform: translateY(calc(-50% - 0.3rem)); text-underline-offset: 0.2rem;&quot; href=&quot;https://github.com/brain-ag/trabalhe-conosco#requisitos-de-neg%C3%B3cio&quot; aria-label=&quot;Permalink: Requisitos de negócio&quot; class=&quot;anchor&quot; id=&quot;user-content-requisitos-de-negócio&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; width=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; class=&quot;octicon octicon-link&quot;&gt;&lt;path d=&quot;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;O usuário deverá ter a possibilidade de cadastrar, editar, e excluir produtores rurais.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;O sistema deverá validar CPF e CNPJ digitados incorretamente.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;A soma de área agrícultável e vegetação, não deverá ser maior que a área total da fazenda&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Cada produtor pode plantar mais de uma cultura em sua Fazenda.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;h1 style=&quot;box-sizing: border-box; margin-top: var(--base-size-24); margin-right: 0px; margin-bottom: var(--base-size-16); margin-left: 0px; font-weight: var(--base-text-weight-semibold, 600); line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted)); color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;Requisitos técnicos&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px; color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Salvar os dados em um banco de dados Postgres usando o NodeJS como layer de Backend, e entregar os endpoints para cadastrar, editar, e excluir produtores rurais, além do endpoint que retorne os totais para o dashboard.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;A criação das estruturas de dados &quot;mockados&quot; faz parte da avaliação.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="-530" y="-90" width="700" height="660" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="Endpoints&lt;br&gt;cadastrar produtores&lt;br&gt;editar produtores&lt;br&gt;excluir produtores&lt;br&gt;totais (endpoint para dashaboard)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="510" width="230" height="110" as="geometry"/>
-                </mxCell>
                 <mxCell id="12" value="produtores  " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="850" y="42" width="150" height="180" as="geometry"/>
+                    <mxGeometry x="1380" y="-260" width="150" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="12" vertex="1">
                     <mxGeometry y="30" width="150" height="30" as="geometry"/>
@@ -79,7 +73,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="31" value="fazendas" style="shape=table;startSize=29;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1080" y="200" width="240" height="300" as="geometry"/>
+                    <mxGeometry x="1330" y="-740" width="240" height="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="31" vertex="1">
                     <mxGeometry y="29" width="240" height="30" as="geometry"/>
@@ -199,7 +193,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="54" value="culturas" style="shape=table;startSize=29;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1480" y="240" width="231" height="120" as="geometry"/>
+                    <mxGeometry x="1310" y="-1010" width="231" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="54" vertex="1">
                     <mxGeometry y="29" width="231" height="30" as="geometry"/>
@@ -240,27 +234,174 @@
                         <mxRectangle width="66" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.458;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                <mxCell id="87" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.975;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="38" edge="1">
                     <mxGeometry x="-1" relative="1" as="geometry">
-                        <mxPoint x="999" y="117" as="sourcePoint"/>
-                        <mxPoint x="1188.92" y="197.02999999999997" as="targetPoint"/>
+                        <mxPoint x="1529" y="-185" as="sourcePoint"/>
+                        <mxPoint x="1718.92" y="-104.97000000000003" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="91" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
                     <mxGeometry x="-0.8074" y="1" relative="1" as="geometry">
-                        <mxPoint x="64" y="1" as="offset"/>
+                        <mxPoint x="-8" y="-82" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="92" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.074;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="31" target="54" edge="1">
                     <mxGeometry x="-1" relative="1" as="geometry">
-                        <mxPoint x="1350" y="100" as="sourcePoint"/>
-                        <mxPoint x="1539.92" y="180.02999999999997" as="targetPoint"/>
+                        <mxPoint x="1540" y="-612" as="sourcePoint"/>
+                        <mxPoint x="1729.92" y="-531.97" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="93" value="N:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="92" vertex="1" connectable="0">
                     <mxGeometry x="-0.8074" y="1" relative="1" as="geometry">
-                        <mxPoint x="136" y="-27" as="offset"/>
+                        <mxPoint x="1" y="-136" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="Produtor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="-255" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Client" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="-245" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Load Balance" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="-265" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="server 1" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="-395" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="server 2" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="-245" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="server 3" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="-105" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="API" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="-240" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1245" y="-230" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Cache" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="-370" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="116" target="117" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1260" y="-240" as="sourcePoint"/>
+                        <mxPoint x="1310" y="-290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="" style="endArrow=classic;html=1;exitX=0.983;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="117" target="13" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1260" y="-240" as="sourcePoint"/>
+                        <mxPoint x="1310" y="-290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.456;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="118" target="116" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1260" y="-240" as="sourcePoint"/>
+                        <mxPoint x="1310" y="-290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1033" y="-340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="118" target="117" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1260" y="-240" as="sourcePoint"/>
+                        <mxPoint x="1310" y="-290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1280" y="-340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="109" target="110" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="880" y="-265" as="sourcePoint"/>
+                        <mxPoint x="930" y="-315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="110" target="111" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="880" y="-265" as="sourcePoint"/>
+                        <mxPoint x="930" y="-315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="111" target="112" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="880" y="-265" as="sourcePoint"/>
+                        <mxPoint x="930" y="-315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="" style="endArrow=classic;html=1;exitX=0.989;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="111" target="113" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="880" y="-265" as="sourcePoint"/>
+                        <mxPoint x="930" y="-315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="111" target="114" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="880" y="-265" as="sourcePoint"/>
+                        <mxPoint x="930" y="-315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="112" target="116" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="-260" as="sourcePoint"/>
+                        <mxPoint x="1020" y="-310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.622;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="114" target="116" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="-260" as="sourcePoint"/>
+                        <mxPoint x="1020" y="-310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="130" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="113" target="116" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="-260" as="sourcePoint"/>
+                        <mxPoint x="1020" y="-310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="132" value="O usuário deverá ter a possibilidade de cadastrar, editar, e excluir produtores rurais." style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="451" y="-920" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="O sistema deverá validar CPF e CNPJ digitados incorretamente." style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="441" y="-805" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="A soma de área agrícultável e vegetação, não deverá ser maior que a área total da fazenda" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="441" y="-690" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="Cada produtor pode plantar mais de uma cultura em sua Fazenda." style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="-530" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="Producer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="131" y="-795" width="102.5" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="endArrow=classic;html=1;exitX=0.946;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="136" target="132" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="671" y="-780" as="sourcePoint"/>
+                        <mxPoint x="721" y="-830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="" style="endArrow=classic;html=1;exitX=0.917;exitY=0.327;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="136" target="133" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="671" y="-780" as="sourcePoint"/>
+                        <mxPoint x="721" y="-830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" value="" style="endArrow=classic;html=1;exitX=0.888;exitY=0.346;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="136" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="671" y="-780" as="sourcePoint"/>
+                        <mxPoint x="438.05999999999995" y="-486" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.82;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="136" target="134" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="671" y="-780" as="sourcePoint"/>
+                        <mxPoint x="721" y="-830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="145" value="Infos de cadastro:&lt;br&gt;&lt;div&gt;cadastro de produtor rural com os seguintes dados:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CPF ou CNPJ&lt;/div&gt;&lt;div&gt;Nome do produtor&lt;/div&gt;&lt;div&gt;Nome da Fazenda&lt;/div&gt;&lt;div&gt;Cidade&lt;/div&gt;&lt;div&gt;Estado&lt;/div&gt;&lt;div&gt;Área total em hectares da fazenda&lt;/div&gt;&lt;div&gt;Área agricultável em hectares&lt;/div&gt;&lt;div&gt;Área de vegetação em hectares&lt;/div&gt;&lt;div&gt;Culturas plantadas (Soja, Milho, Algodão, Café, Cana de Açucar)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="855" y="-700" width="370" height="190" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
