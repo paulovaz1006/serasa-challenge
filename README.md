@@ -7,7 +7,7 @@ O teste tem como objetivo acurar as habilidades do candidato em resolver alguns 
 - A soma de área agrícultável e vegetação, não deverá ser maior que a área total da fazenda
 - Cada produtor pode plantar mais de uma cultura em sua Fazenda.
 
-## Tecnologias utilizads
+## Tecnologias utilizadas
  - Node
  - Typescript
  - TypeOrm
@@ -16,14 +16,14 @@ O teste tem como objetivo acurar as habilidades do candidato em resolver alguns 
  - Swagger
 
 ## Instalação
-  Com docker (https://www.docker.com/):
-    na pasta principal tem um arquivo docker-compose, utilizar o comando:
-      - docker-compose up (a aplicação ja estara disponivel após finalizar)
+ - Com docker (https://www.docker.com/):
+   na pasta principal tem um arquivo docker-compose, utilizar o comando:
+   - docker-compose up (a aplicação ja estara disponivel após finalizar)
   
-  Sem docker:
-    entrar na pasta da api e rodar os seguintes comandos:
-      - npm install 
-      - npm run dev
+ - Sem docker:
+   entrar na pasta da api e rodar os seguintes comandos:
+    - npm install 
+    - npm run dev
   serviço de banco de dados, será preciso instalar localmente  
   https://www.postgresql.org/  
 
