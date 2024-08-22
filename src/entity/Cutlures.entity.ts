@@ -1,16 +1,18 @@
-import { Entity, PrimaryGeneratedColumn, ManyToMany, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, ManyToMany, Column, ManyToOne, JoinColumn } from 'typeorm';
 import { FarmsEntity } from './Farms.entity';
+import { randomUUID } from "crypto";
 
 @Entity({name: 'cultures'})
 export class CulturesEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column()
   name: string;
 
-  @ManyToMany(() => FarmsEntity, (farm) => farm.cultures_ids)
-  farm_ids: FarmsEntity[];
+  @ManyToOne(() => FarmsEntity, (farm) => farm.culture_id, { onDelete: 'CASCADE' })
+  @JoinColumn({ name: 'farm_id' })
+  farm_id: FarmsEntity;
 
   constructor(name, farm_id) {
     this.id = randomUUID();

@@ -10,13 +10,13 @@ export class ProducersEntity {
     @Column()
     name: string;
 
-    @Column('bigint')
+    @Column('bigint', {nullable: true})
     cpf: string;
 
-    @Column('bigint')
+    @Column('bigint', {nullable: true})
     cnpj: string;
 
-    @OneToMany(() => FarmsEntity, (farm) => farm.producer_id)
+    @OneToMany(() => FarmsEntity, (farm) => farm.producer_id, {onDelete: 'CASCADE'})
     farm_id: FarmsEntity;
 
     constructor(name, cpf = null, cnpj = null) {
